@@ -44,7 +44,16 @@ function ProjectListSection() {
               </Image>
               <p>{item.name}</p>
               <Link to={`/projects/${item}`}>
-                <button>View</button>
+                <motion.button
+                  whileTap={{ scale: 0.8 }}
+                  whileHover={{
+                    backgroundColor: "#2C9BF6",
+                    border: "none",
+                    boxShadow: "0px 0px 8px #0ab2db",
+                  }}
+                >
+                  View
+                </motion.button>
               </Link>
             </motion.div>
           ))}
@@ -99,6 +108,7 @@ const Container = styled(motion.div)`
       background: #181924;
       p {
         @media (max-width: 768px) {
+          margin: 5% 0%;
           font-size: 1rem;
         }
         font-size: 1.6vw;
@@ -107,8 +117,12 @@ const Container = styled(motion.div)`
       button {
         @media (max-width: 768px) {
           font-size: 1rem;
-          height: 6vh;
+          height: 5vh;
+          border: solid 1px pink;
+          color: #fff;
           width: 50%;
+          background: transparent;
+          border-radius: 5px;
         }
         width: 20%;
         height: 8vh;
