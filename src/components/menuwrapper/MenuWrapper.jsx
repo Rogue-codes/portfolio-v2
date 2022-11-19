@@ -21,7 +21,7 @@ function MenuWrapper({ showWrapper, setShowWrapper }) {
       <Circle
         animate={{
           scale: [1, 2, 2, 1, 1],
-          y: ["-10vw", "100vw"],
+          y: ["-10vh", "100vh"],
           backgroundColor: ["#c00505", "#2c9bf6", "#c00505"],
           // borderRadius: ["50%", "30%", "50%"],
         }}
@@ -31,7 +31,7 @@ function MenuWrapper({ showWrapper, setShowWrapper }) {
       <Circle3
         animate={{
           scale: [1, 2, 2, 1, 1],
-          y: ["-10vw", "100vw"],
+          y: ["-10vh", "100vh"],
           backgroundColor: ["#c00505", "#2c9bf6", "#c00505"],
         }}
         transition={{
@@ -45,7 +45,7 @@ function MenuWrapper({ showWrapper, setShowWrapper }) {
       <Circle2
         animate={{
           scale: [1, 2, 2, 1, 1],
-          y: ["-10vw", "100vw"],
+          y: ["-10vh", "100vh"],
           backgroundColor: ["#c00505", "#2c9bf6", "#c00505"],
         }}
         transition={{
