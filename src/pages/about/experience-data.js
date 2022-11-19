@@ -7,7 +7,7 @@ export const exp = [
             `• Responsible for building the user interface and develop front-end
             architecture on various client projects using several technologies
             (mainly React.js).`,
-            `Worked with a Team of Developers to build the company’s self service
+            `• Worked with a Team of Developers to build the company’s self service
             portal, which help increased customer service delivery.`,
             `• key member of the team that Built an E-Commerce web Application
             (with major focus on the front-end) for a client in the banking sector
