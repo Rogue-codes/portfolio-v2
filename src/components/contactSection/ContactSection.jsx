@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BsLinkedin, BsGithub, BsWhatsapp, BsTwitter } from "react-icons/bs";
+import { BsLinkedin,BsGithub, BsWhatsapp, BsTwitter } from "react-icons/bs";
 import AnimatingText from "../../utils/AnimatingText";
 function ContactSection() {
   return (
@@ -9,19 +9,19 @@ function ContactSection() {
       <TextSm>Connect with me online</TextSm>
       <Social>
         <Icon>
-          <BsLinkedin size="1.5rem" color="white" />
+        <a href="https://www.linkedin.com/in/osujinnamdidaniel/" target="_blank" rel="noreferrer"><BsLinkedin color='white' size='1.5rem' /></a>
           <p>LinkedIn</p>
         </Icon>
         <Icon>
-          <BsGithub size="1.5rem" color="white" />
+          <a href="https://github.com/Rogue-codes" target="_blank" rel="noreferrer"><BsGithub size="1.5rem" color="white" /></a>
           <p>GitHub</p>
         </Icon>
         <Icon>
-          <BsWhatsapp size="1.5rem" color="white" />
+          <a href="https://api.whatsapp.com/send?phone=2348058091098" target="_blank" rel="noreferrer"><BsWhatsapp size="1.5rem" color="white" /></a>
           <p>WhatsApp</p>
         </Icon>
         <Icon>
-          <BsTwitter size="1.5rem" color="white" />
+          <a href="https://twitter.com/RhogaerTagaryen" target="_blank" rel="noreferrer"><BsTwitter size="1.5rem" color="white" /></a>
           <p>Twitter</p>
         </Icon>
       </Social>
@@ -33,7 +33,7 @@ export default ContactSection;
 
 const Container = styled.div`
   width: 100%;
-  min-height: 50vh;
+  min-height: 20vh;
   margin-bottom: 5%;
   padding: 0% 10%;
 `;

@@ -7,7 +7,7 @@ function SoldOut() {
     <Container>
       <Wrapper>
         <AnimatingText content='Sold Yet? 🤙'/>
-        <TextSm>Thanks for stopping by, I’m currently looking to join a new team of creative developers. If you think I might be a good fit for your company, give me a call 🇳🇬  or send me an  email 📧.</TextSm>
+        <TextSm>Thanks for stopping by, I’m currently looking to join a new team of creative developers. If you think I might be a good fit for your company, give me a call 🇳🇬  or send me an  email <a href="mailto:nnamdidanielosuji@gmail.com">📧</a>.</TextSm>
       </Wrapper>
     </Container>
   );
@@ -20,7 +20,6 @@ const Container = styled.div`
       min-height: auto;
     }
   width: 100%;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,4 +42,7 @@ const TextSm = styled.p`
   margin-top: 2%;
   color: white;
   padding-left: 5%;
+  a{
+    text-decoration: none;
+  }
 `;
