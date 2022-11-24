@@ -6,7 +6,7 @@ import ProjectListSection from "./ProjectListSection";
 
 function Projects() {
   return (
-    <Container>
+    <Container exit={{x:"-100vw"}} transition={{delay:0.5, duration: 1 }}>
       <AnimatingText content="My portfolio" />
       <Text>
         From Web Components to React.JS, Redux, Next.JS, and Node.JS. Check out

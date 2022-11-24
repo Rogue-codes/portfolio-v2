@@ -1,6 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { all } from "./data";
 
@@ -43,7 +42,7 @@ function ProjectListSection() {
                 <img src={item.img} alt="" />
               </Image>
               <p>{item.name}</p>
-              <Link to={`/projects/${item}`}>
+              <a href={item.link}>
                 <motion.button
                   whileTap={{ scale: 0.8 }}
                   whileHover={{
@@ -54,7 +53,7 @@ function ProjectListSection() {
                 >
                   View
                 </motion.button>
-              </Link>
+              </a>
             </motion.div>
           ))}
         </AnimatePresence>

@@ -5,14 +5,10 @@ export const routes = [
     },
     {
         name:"About",
-        link:"/about"
+        link:"/about" 
     },
     {
         name:"Projects",
         link:"/projects"
-    },
-    {
-        name:"Contact",
-        link:"/"
-    },
+    }
 ]

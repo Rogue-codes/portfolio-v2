@@ -8,7 +8,7 @@ import SoldOut from '../../components/soldOut/SoldOut'
 
 function Home() {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+    <motion.div initial={{opacity:0}} animate={{opacity:1}} exit={{x:"-100vw"}} transition={{delay:0.5, duration: 1 }}>
         <Landing/>
         <AboutSection/>
         <ProjectSection/>

@@ -12,8 +12,8 @@ export const projects = [
   {
     name: "PayBeta",
     Img: `${Img1}`,
-    link: "",
-    git: "",
+    link: "https://paybeta.netlify.app/",
+    git: "https://github.com/Rogue-codes/paybeta",
     tech: [
     {
         img:`${Logo1}`,
@@ -32,8 +32,8 @@ export const projects = [
   {
     name: "Atlas Airways",
     Img: `${Img2}`,
-    link: "",
-    git: "",
+    link: "https://atlas-air.netlify.app/",
+    git: "https://github.com/Rogue-codes/Atlas-Airways",
     tech: [
     {
         img:`${Logo1}`,
@@ -52,8 +52,8 @@ export const projects = [
   {
     name: "Market Place",
     Img: `${Img3}`,
-    link: "",
-    git: "",
+    link: "https://sa-market.netlify.app/",
+    git: "https://github.com/Rogue-codes/Ecommerce-Frontend",
     tech: [
     {
         img:`${Logo1}`,

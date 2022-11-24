@@ -9,7 +9,7 @@ import ProjectDetails from "../pages/projects/ProjectDetails";
 function Routers() {
     const location = useLocation();
   return (
-    <AnimatePresence>
+    <AnimatePresence exitBeforeEnter>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />

@@ -71,8 +71,8 @@ function ProjectSection() {
             </Image>
             <Desc>
               <h2>{item.name}</h2>
-              <p>Visit the website</p>
-              <AiFillGithub size="2rem" color="white" />
+              <a href={item.link}>Visit the website</a>
+              <a href={item.git}><AiFillGithub size="2rem" color="white" /></a>
             </Desc>
           </Projects>
         </Wrapper>
@@ -174,12 +174,16 @@ const Desc = styled.div`
     font-size: 3vw;
     color: white;
   }
-  p {
+  a{
     @media (max-width: 768px) {
       font-size: 1rem;
     }
     font-size: 1.5vw;
     color: white;
+    transition: all 0.5s linear;
+    &:hover{
+      color: #2c9bf6;
+    }
   }
 `;
 

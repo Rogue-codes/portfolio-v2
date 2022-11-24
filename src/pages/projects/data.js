@@ -3,6 +3,8 @@ import img2 from "../../assets/paybeta.jpeg";
 import img3 from "../../assets/atlas.png";
 import img4 from "../../assets/samarket.png";
 import img5 from "../../assets/tour.png";
+import img6 from "../../assets/chibike.png";
+import img7 from "../../assets/cloud.png";
 export const all = [
   {
     category: "All",
@@ -18,7 +20,7 @@ export const all = [
       {
         id:2,
         name: "Pay Beta",
-        link: "https://myhotelng.netlify.app/",
+        link: "http://paybeta.netlify.app/",
         img: img2,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
@@ -26,7 +28,7 @@ export const all = [
       {
         id:3,
         name: "Atlas Airways",
-        link: "https://myhotelng.netlify.app/",
+        link: "https://atlas-air.netlify.app/",
         img: img3,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
@@ -34,7 +36,7 @@ export const all = [
       {
         id:4,
         name: "Market Place",
-        link: "https://myhotelng.netlify.app/",
+        link: "https://sa-market.netlify.app",
         img: img4,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
@@ -42,10 +44,26 @@ export const all = [
       {
         id:5,
         name: "Tour 9ja",
-        link: "https://myhotelng.netlify.app/",
+        link: "http://explore9ja.netlify.app/",
         img: img5,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
+      },
+      {
+        id:6,
+        name: "Chibuike Portfolio",
+        link: "https://chibuikedaraojimba.netlify.app/",
+        img: img6,
+        about: "lorem",
+        stacks: ["React", "styled-components", "framer-motion"],
+      },
+      {
+        id:6,
+        name: "Cloud-SA support Portal",
+        link: "https://portal-cloudsa.netlify.app/",
+        img: img7,
+        about: "lorem",
+        stacks: ["React", "styled-components", "framer-motion", "Email JS", "Crisp-Chat"],
       }
     ],
   },
@@ -55,7 +73,7 @@ export const all = [
       {
         id:1,
         name: "Pay Beta",
-        link: "https://myhotelng.netlify.app/",
+        link: "http://paybeta.netlify.app/",
         img: img2,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
@@ -63,27 +81,36 @@ export const all = [
       {
         id:2,
         name: "Atlas Airways",
-        link: "https://myhotelng.netlify.app/",
+        link: "https://atlas-air.netlify.app/",
         img: img3,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
       },
+      {
+        id:6,
+        name: "Chibuike Portfolio",
+        link: "https://chibuikedaraojimba.netlify.app/",
+        img: img6,
+        about: "lorem",
+        stacks: ["React", "styled-components", "framer-motion"],
+      },
+      {
+        id:6,
+        name: "Cloud-SA support Portal",
+        link: "https://portal-cloudsa.netlify.app/",
+        img: img7,
+        about: "lorem",
+        stacks: ["React", "styled-components", "framer-motion", "Email JS", "Crisp-Chat"],
+      }
     ],
   },
   {
     category: "Back-End",
     data: [
       {
-        name: "My Hotel NG",
-        link: "https://myhotelng.netlify.app/",
-        img: img1,
-        about: "lorem",
-        stacks: ["React", "styled-components", "framer-motion"],
-      },
-      {
         id:4,
         name: "Market Place",
-        link: "https://myhotelng.netlify.app/",
+        link: "sa-market.netlify.app",
         img: img4,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
@@ -91,7 +118,7 @@ export const all = [
       {
         id:5,
         name: "Tour 9ja",
-        link: "https://myhotelng.netlify.app/",
+        link: "http://explore9ja.netlify.app/",
         img: img5,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion"],
