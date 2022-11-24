@@ -1,5 +1,5 @@
 import Img1 from "../../assets/paybeta.jpeg";
-import Img2 from "../../assets/atlas.png";
+import Img2 from "../../assets/pro.png";
 import Img3 from "../../assets/samarket.png";
 import Logo1 from "../../assets/React-icon.png";
 import Logo2 from "../../assets/styled.png";
@@ -30,10 +30,10 @@ export const projects = [
 ],
   },
   {
-    name: "Atlas Airways",
+    name: "Health Pro",
     Img: `${Img2}`,
-    link: "https://atlas-air.netlify.app/",
-    git: "https://github.com/Rogue-codes/Atlas-Airways",
+    link: "healthpro.netlify.app",
+    git: "https://github.com/Rogue-codes/Hospital-Management-App",
     tech: [
     {
         img:`${Logo1}`,
@@ -46,6 +46,10 @@ export const projects = [
     {
         img:`${Logo3}`,
         stack:"React-spring"
+    },
+    {
+        img:`${Logo4}`,
+        stack:"Redux"
     },
 ],
   },

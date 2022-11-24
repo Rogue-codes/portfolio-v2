@@ -5,6 +5,7 @@ import img4 from "../../assets/samarket.png";
 import img5 from "../../assets/tour.png";
 import img6 from "../../assets/chibike.png";
 import img7 from "../../assets/cloud.png";
+import img8 from "../../assets/health.png";
 export const all = [
   {
     category: "All",
@@ -58,12 +59,20 @@ export const all = [
         stacks: ["React", "styled-components", "framer-motion"],
       },
       {
-        id:6,
+        id:7,
         name: "Cloud-SA support Portal",
         link: "https://portal-cloudsa.netlify.app/",
         img: img7,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion", "Email JS", "Crisp-Chat"],
+      },
+      {
+        id:8,
+        name: "Health Pro",
+        link: "healthpro.netlify.app",
+        img: img8,
+        about: "lorem",
+        stacks: ["React", "styled-components", "Redux", "Chart JS"],
       }
     ],
   },
@@ -95,12 +104,20 @@ export const all = [
         stacks: ["React", "styled-components", "framer-motion"],
       },
       {
-        id:6,
+        id:7,
         name: "Cloud-SA support Portal",
         link: "https://portal-cloudsa.netlify.app/",
         img: img7,
         about: "lorem",
         stacks: ["React", "styled-components", "framer-motion", "Email JS", "Crisp-Chat"],
+      },
+      {
+        id:8,
+        name: "Health Pro",
+        link: "healthpro.netlify.app",
+        img: img8,
+        about: "lorem",
+        stacks: ["React", "styled-components", "Redux", "Chart JS"],
       }
     ],
   },
