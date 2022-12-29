@@ -6,8 +6,6 @@ import Logo2 from "../../assets/styled.png";
 import Logo3 from "../../assets/spring.png";
 import Logo4 from "../../assets/redux.png";
 
-// import { FaReact } from "react-icons/fa";
-// import { SiStyledcomponents, SiSpringCreators, SiRedux } from "react-icons/si";
 export const projects = [
   {
     name: "PayBeta",
@@ -56,8 +54,8 @@ export const projects = [
   {
     name: "Market Place",
     Img: `${Img3}`,
-    link: "https://sa-market.netlify.app/",
-    git: "https://github.com/Rogue-codes/Ecommerce-Frontend",
+    link: "https://shoplite-pro.netlify.app/",
+    git: "https://github.com/Rogue-codes/shoplite-ecomerce-Frontend",
     tech: [
     {
         img:`${Logo1}`,
